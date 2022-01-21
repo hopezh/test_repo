@@ -1,9 +1,9 @@
 import torch
 
 x = torch.rand( 5 , 8 )
-print(x)
+print(x, '\n')
 
 y = torch.ones(2, 3)
-print(y)
+print(y, '\n')
 
-print('cuda available: ', torch.cuda.is_available())
+print('cuda available: ', torch.cuda.is_available(), '\n')
